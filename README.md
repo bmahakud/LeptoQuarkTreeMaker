@@ -10,6 +10,7 @@ cd CMSSW_7_4_15/src/
 cmsenv
 git cms-merge-topic -u kpedro88:METfix7415
 git clone https://github.com/bmahakud/LeptoQuarkTreeMaker
+git cms-merge-topic -u matteosan1:smearer
 scram b -j 8
 cd LeptoQuarkTreeMaker/Production/test
 ```
